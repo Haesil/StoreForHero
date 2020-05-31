@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1973883564951181565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 958014287967720837}
+  - component: {fileID: 4100880806224106043}
+  - component: {fileID: 1973883564951181538}
+  m_Layer: 0
+  m_Name: ObjectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &958014287967720837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973883564951181565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4100880806224106043
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973883564951181565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 303b955d374b8c4458281d601e368eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectKind: 4
+  objectList:
+  - {fileID: 591396450422810360, guid: 69e8fe51612f06240bf1a67fe49cbe7b, type: 3}
+  - {fileID: 8184957451353234698, guid: bb172804f0061f14b93508c80a18d8cd, type: 3}
+  - {fileID: 857204136, guid: d9d7850c7e2675443972fa7d3e8fab20, type: 3}
+  - {fileID: 9150473180877068931, guid: 23bf550674c8f1f418ace4f9b570ede3, type: 3}
+  objectNum: 03000000030000000300000003000000
+--- !u!114 &1973883564951181538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973883564951181565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb9cf695622f55469c7d066c3604c62, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isShelf: 0
+  isMarket: 0
+  UIflag: 0
+  item:
+    itemID: 0
+    itemName: 
+    itemPrice: 0
+    itemDescription: 
+    itemIcon: {fileID: 0}
+    itemCount: 0
+    itemType: 0
+  itemCount: 0
+  slot: {fileID: 0}
+  Gold: 0
